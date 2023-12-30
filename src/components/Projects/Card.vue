@@ -18,7 +18,7 @@ import { projects } from '~/composables/constants/projects'
       <img
         aspect-video rounded-t-md object-cover
         un-xl="rounded-md"
-        :src="`/src/assets/images/${project.image}`"
+        :src="`/images/${project.image}`"
         :alt="`Image Preview of ${project.name}`"
       >
     </div>
@@ -29,7 +29,7 @@ import { projects } from '~/composables/constants/projects'
       :href="project.link"
     >
       <div flex items-center justify-between>
-        <h3 font-display font-bold uppercase un-text="xl foreground">
+        <h3 font-bold font-display uppercase un-text="xl foreground">
           {{ project.name }}
         </h3>
         <i i-carbon-launch h-6 w-6 text-foreground />
