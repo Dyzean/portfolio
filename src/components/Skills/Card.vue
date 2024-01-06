@@ -27,7 +27,7 @@ const sortedRightHalfSkills = sortSkills(rightHalfSkills)
       flex-1 rounded-md bg-secondary p-4 transition duration-150
       un-border="~ foreground/30 hover:accent-10"
     >
-      <h3 font-display font-bold uppercase un-text="xl foreground">
+      <h3 font-bold font-display uppercase un-text="xl foreground">
         {{ category.category }}
       </h3>
 
