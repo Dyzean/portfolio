@@ -15,7 +15,7 @@ export default defineConfig({
   },
 
   define: {
-    __APP_VERSION__: JSON.stringify(process.env.npm_package_version),
+    __APP_VERSION__: process.env.NODE_ENV === 'production' ? process.env.VITE_APP_VERSION : JSON.stringify(process.env.VITE_APP_VERSION),
   },
 
   plugins: [
