@@ -9,7 +9,7 @@ const version = window.__APP_VERSION__
   >
     <small
       font-semibold uppercase
-      un-text="sm foreground/70"
+      un-text="sm center foreground/70"
       un-max-md="order-1"
     >
       ©
